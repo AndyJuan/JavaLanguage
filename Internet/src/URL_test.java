@@ -15,5 +15,8 @@ public class URL_test {
         System.out.println("锚点：" +url.getRef());
         System.out.println("参数：" +url.getQuery());//？之后的参数，存在锚点返回null，如果不存在，则返回正确
 
+        url = new URL("http://www.baidu.com:80/a");
+        url = new URL(url,"/b.txt");//相对路径
+        System.out.println(url.toString());
     }
 }

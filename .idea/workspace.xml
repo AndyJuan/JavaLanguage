@@ -26,22 +26,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="450" />
+          <entry key="java" value="751" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="450" />
+          <entry key="JAVA" value="751" />
         </counts>
       </usages-collector>
     </session>
@@ -75,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Internet/src/URL_test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+            <state relative-caret-position="114">
+              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Internet/src/URL_test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,6 +123,7 @@
         <option value="$PROJECT_DIR$/Thread/src/code_01_Rabbit.java" />
         <option value="$PROJECT_DIR$/Thread/src/code_02_RabbitApp.java" />
         <option value="$PROJECT_DIR$/Internet/src/URL_test.java" />
+        <option value="$PROJECT_DIR$/Internet/src/URL_test2.java" />
       </list>
     </option>
   </component>
@@ -120,7 +133,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="570" />
     <option name="y" value="36" />
     <option name="width" value="1230" />
@@ -164,7 +177,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545747106008" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545748795607" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -185,9 +198,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.URL_test">
+  <component name="RunManager" selected="Application.URL_test2">
     <configuration name="URL_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URL_test" />
+      <module name="Internet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URL_test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="URL_test2" />
       <module name="Internet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,9 +231,11 @@
     <list>
       <item itemvalue="Application.code_02_RabbitApp" />
       <item itemvalue="Application.URL_test" />
+      <item itemvalue="Application.URL_test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URL_test2" />
         <item itemvalue="Application.URL_test" />
         <item itemvalue="Application.code_02_RabbitApp" />
       </list>
@@ -234,12 +257,12 @@
       <workItem from="1545451430601" duration="3783000" />
       <workItem from="1545477081975" duration="3012000" />
       <workItem from="1545563853300" duration="1231000" />
-      <workItem from="1545745672721" duration="1361000" />
+      <workItem from="1545745672721" duration="3113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11999000" />
+    <option name="totallyTimeSpent" value="13751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -254,7 +277,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,8 +338,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Internet/src/URL_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+        <state relative-caret-position="114">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Internet/src/URL_test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
