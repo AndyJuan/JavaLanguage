@@ -1,6 +1,6 @@
 import java.io.*;
 import java.net.URL;
-//获取资源用流的形式
+//获取资源用流的形式 URL网络爬虫的原理
 public class URL_test2 {
     public static void main(String[] args) throws IOException {
         URL url = new URL("http://www.baidu.com");
